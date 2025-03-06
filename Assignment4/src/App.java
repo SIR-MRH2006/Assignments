@@ -11,6 +11,9 @@ public class App {
 
         String res = "";
         switch (nums){
+            case "0":
+                res = "sefr";
+                break;
             case "11":
                 res = "yazdah";
                 break;

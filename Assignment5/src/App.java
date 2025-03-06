@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("please enter a number for print a leaf(odd number):");
         int userNumber = scanner.nextInt();
         int t = 1;
         int m = (userNumber-1)/2;

@@ -6,7 +6,7 @@ public class App {
         System.out.println("please enter a number to checking is that a pefect number : ");
         int userNumber = scanner.nextInt();
         int sum = 0;
-        for(int i = 1;i<userNumber;i++){
+        for(int i = 1;i<=userNumber/2;i++){
             if(userNumber % i == 0){
                 sum += i;
             }
